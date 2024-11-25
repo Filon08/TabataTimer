@@ -1,0 +1,36 @@
+body {
+    width: 1440px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.leftWindow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.mainTimer{
+    font-size: 30px;
+}
+.btn{
+    padding: 5px 10px;
+}
+.rightWindow {
+    width: 150px;
+    height: 200px;
+}
+.param{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.meaning{
+    width: 50px;
+}
