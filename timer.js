@@ -6,7 +6,7 @@ const timerBlock = document.querySelector('.mainTimer'),
     stopBtn = document.querySelector('.stpBtn')
 
 
-restBlock.value = 15, cyclesBlock.value = 1, roundBlock.value = 30
+restBlock.value = 15, cyclesBlock.value = 1, roundBlock.value = 130
 
 let time = ((+roundBlock.value + +restBlock.value) * cyclesBlock.value)
 timerBlock.innerHTML = `${time} sec`
